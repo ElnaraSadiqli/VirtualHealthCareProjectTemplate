@@ -2,16 +2,14 @@
 
     // Header Navbar menu mobile version
     .nav-mob-menu {
-        background-color: $back-color-btn-blue;
-        border: 1px solid blue;
-        border-radius: 4px;
+        background-color: transparent;
+        border-color: transparent;
 
-        i {
-            font-size: 30px;
-            color: #fff;
-            border: 2px solid white;
-
+        img {
+            width: 100%;
+            object-fit: cover;
         }
+
     }
 
 
@@ -115,14 +113,16 @@
             }
         }
     }
-// Costumer Section
-   #costumer{
+
+    // Costumer Section
+    #costumer {
+
         // Costumer section  variables of  default slick regular slider
         .regular {
 
-           // Costum Slider Before Button
+            // Costum Slider Before Button
             .slick-prev {
-                left: 27%;
+                left: 26%;
 
             }
 
@@ -145,25 +145,34 @@
                 }
             }
         }
-.costum-item{
-    text-align: center;
-      
-    }
-    }
-// Article section
-#article{
 
-    .cards-article{
-      padding: 20px;
-     
-        .card-article{
-           
-            margin-bottom: 2rem;
+        .costum-item {
+            text-align: center;
+            padding: 40px;
         }
     }
+
+    // Article section
+    #article {
+
+        .cards-article {
+            padding: 20px;
+
+            .card-article {
+
+                margin-bottom: 2rem;
+
+                .card-article-content{
+                    padding: 14px 14px;
+                    margin-left: unset;
+                    
+                }
+            }
+        }
+    }
+
+
 }
 
-
-    }
-    /* Medium devices   */
-    @media screen and (min-width: 769px) and (max-width: 992px) {}
+/* Medium devices   */
+@media screen and (min-width: 769px) and (max-width: 992px) {}

@@ -820,14 +820,13 @@ a {
 
 @media only screen and (max-width: 992px) {
   .nav-mob-menu {
-    background-color: #458ff6;
-    border: 1px solid blue;
-    border-radius: 4px;
+    background-color: transparent;
+    border-color: transparent;
   }
-  .nav-mob-menu i {
-    font-size: 30px;
-    color: #fff;
-    border: 2px solid white;
+  .nav-mob-menu img {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
 
@@ -887,7 +886,7 @@ a {
     margin: 3rem auto;
   }
   #costumer .regular .slick-prev {
-    left: 27%;
+    left: 26%;
   }
   #costumer .regular .slick-next {
     right: 29%;
@@ -900,12 +899,17 @@ a {
   }
   #costumer .costum-item {
     text-align: center;
+    padding: 40px;
   }
   #article .cards-article {
     padding: 20px;
   }
   #article .cards-article .card-article {
     margin-bottom: 2rem;
+  }
+  #article .cards-article .card-article .card-article-content {
+    padding: 14px 14px;
+    margin-left: unset;
   }
 }
 
