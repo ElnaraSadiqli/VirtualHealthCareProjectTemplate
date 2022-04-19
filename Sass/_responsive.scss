@@ -1,7 +1,9 @@
+
+// * small devices (phones 767px  and down) */
 @media only screen and (max-width: 992px) {
 
-    // Header Navbar menu mobile version
-    .nav-mob-menu {
+      // Header Navbar menu mobile version
+      .nav-mob-menu {
         background-color: transparent;
         border-color: transparent;
 
@@ -12,11 +14,6 @@
 
     }
 
-
-}
-
-// * small devices (phones 767px  and down) */
-@media only screen and (max-width: 767px) {
 
     //  Virtual HealtCare
     #virtual-health {
@@ -162,10 +159,10 @@
 
                 margin-bottom: 2rem;
 
-                .card-article-content{
+                .card-article-content {
                     padding: 14px 14px;
                     margin-left: unset;
-                    
+
                 }
             }
         }
@@ -174,5 +171,11 @@
 
 }
 
-/* Medium devices   */
-@media screen and (min-width: 769px) and (max-width: 992px) {}
+//Medium devices(992px and up)
+
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+
+   *{
+       font-size: 17px;
+   }
+}

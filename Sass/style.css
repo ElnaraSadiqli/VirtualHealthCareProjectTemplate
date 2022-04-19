@@ -725,9 +725,14 @@ a {
 }
 
 #article .cards-article .card-article .card-article-content {
-  width: 73%;
-  height: 53%;
-  margin-left: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 18px;
 }
 
 #article .cards-article .card-article .card-article-content h4 {
@@ -828,9 +833,6 @@ a {
     -o-object-fit: cover;
        object-fit: cover;
   }
-}
-
-@media only screen and (max-width: 767px) {
   #virtual-health {
     padding-top: 3rem;
   }
@@ -913,5 +915,9 @@ a {
   }
 }
 
-/* Medium devices   */
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+  * {
+    font-size: 17px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
